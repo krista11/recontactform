@@ -1,0 +1,27 @@
+{
+    "name": "reprezentuok/recontactform",
+    "authors": [
+        {
+            "name": "Reprezentuok",
+            "role": "Company"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Re\\ContactForm\\": "src/"
+        },
+        "classmap": [
+            "recontactform.php"
+        ],
+        "exclude-from-classmap": []
+    },
+    "config": {
+        "preferred-install": "dist",
+        "prepend-autoloader": false
+    },
+    "type": "prestashop-module",
+    "license": "General terms and conditions <https://gettonline.com/terms-and-conditions/>"
+}
